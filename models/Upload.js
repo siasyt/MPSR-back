@@ -4,9 +4,7 @@ const uploadSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    // fileName: {
-    //     type: String
-    // },
+
     predictedAnimal: {
         type: String,
         required: true
